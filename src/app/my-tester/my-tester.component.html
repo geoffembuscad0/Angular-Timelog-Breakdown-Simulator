@@ -1,0 +1,17 @@
+<p>my-tester works!</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Time Start</th>
+            <th>Time End</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let log of getLogDetails">
+            <td><p>{{ log.date }}</p></td>
+            <td><p>{{ log.startTimeText }}</p><p><small style="text-transform: capitalize;">{{ log.startSource }} {{ log.status }}</small></p><p><small>{{ log.startDateTime | date: 'longDate' }}</small></p></td>
+            <td><p>{{ log.endTimeText }}</p><p><small style="text-transform: capitalize;">{{ log.endSource }} {{ log.status }}</small></p><p><small>{{ log.endDateTime | date: 'longDate' }}</small></p></td>
+        </tr>
+    </tbody>
+</table>
