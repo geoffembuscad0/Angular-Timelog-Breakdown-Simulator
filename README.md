@@ -1,6 +1,7 @@
-# MySampleAngular
+# MyAngularTimelogBreakdownSimulator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+This project is served as a simulator for a case study on breaking down the attendance summary of one individual working in the organization. Geoffrey Embuscado
 
 ## Development server
 
